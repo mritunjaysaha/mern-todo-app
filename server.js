@@ -24,8 +24,9 @@ connection.once("open", () => {
 });
 
 const usersRouter = require("./routes/auth");
-app.use("/user", usersRouter);
-
+app.use("/api", usersRouter);
+const todoRouter = require("./routes/todo");
+app.use("/api", todoRouter);
 app.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "client", "build", "index.html"));
 });
