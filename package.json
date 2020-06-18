@@ -14,7 +14,9 @@
     "mongoose": "^5.9.19",
     "passport": "^0.4.1",
     "passport-jwt": "^4.0.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "react-datetime-picker": "^3.0.2",
+    "react-time-picker": "^4.0.1"
   },
   "devDependencies": {},
   "scripts": {
